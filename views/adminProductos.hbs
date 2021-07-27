@@ -1,0 +1,28 @@
+<div class="container">
+    <div>
+        <a href="/admin/productos/create" class="btn btn-info mt-4 mb-4">Agregar Nuevo Producto </a>
+    </div>
+    <br>
+    <div class="container" >
+        <div class="row row-cols-3">
+            {{#each productos}}
+        <div class= "col mt-3" >
+            <div class="card" style="width: 18rem;">
+            <img src="{{imagen}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title"> {{nombre}}</h4>
+                <p class="card-text">{{descripcion}}</p>
+                <p class="card-text">${{precio}}</p>
+                <p class="card-text">Stock:{{stock}}</p>
+                <a href="/admin/productos/update/{{id}}" class="btn btn-primary">Editar <i class="fas fa-edit"></i></a>
+                <a href="/admin/productos/delete/{{id}}" class="btn btn-danger">Eliminar <i class="fas fa-trash-alt"></i></a>
+
+            </div>
+            </div>
+        </div>
+            {{/each}}
+        </div> 
+        
+    </div>
+</div>
+
