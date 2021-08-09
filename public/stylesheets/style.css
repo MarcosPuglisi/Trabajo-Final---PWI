@@ -1,8 +1,192 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+
+
+
+/** banner section **/
+
+.banner_main {
+     background: url(../imagesbg/carpa.jpeg);
+     background-repeat: no-repeat;
+     min-height: 700px;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+     background-size: 100% 100%;
+     
 }
 
-a {
-  color: #00B7FF;
+.text-bg {
+     text-align: center;
+     padding-bottom: 50px;
 }
+
+.text-bg h1 {
+     color: #fff;
+     font-size: 67px;
+     line-height: 90px;
+     padding-bottom: 35px;
+     font-weight: bold;
+}
+
+.text-bg strong {
+     font-family: 'Righteous', cursive;
+     font-size: 40px;
+     line-height: 50px;
+     color: #fff;
+     padding-bottom: 10px;
+     display: block;
+}
+
+.text-bg span {
+     font-family: 'Righteous', cursive;
+     color: #f6d601;
+     font-size: 40px;
+     line-height: 50px;
+     font-weight: bold;
+     padding-bottom: 20px;
+     display: block;
+}
+
+.text-bg p {
+     color: #fff;
+     font-size: 17px;
+     line-height: 28px;
+     padding-bottom: 60px;
+}
+
+.text-bg a {
+     font-family: 'Righteous', cursive;
+     font-size: 17px;
+     background-color: #fff;
+     color: #000;
+     padding: 13px 0px;
+     width: 100%;
+     max-width: 190px;
+     text-align: center;
+     display: inline-block;
+     transition: ease-in all 0.5s;
+}
+
+.text-bg a:hover {
+     background-color: #f6d601;
+     color: #000;
+     transition: ease-in all 0.5s;
+     border-radius: 26px;
+}
+
+.titlepage {
+     text-align: center;
+     padding-bottom: 60px;
+}
+
+.titlepage h2 {
+     font-size: 45px;
+     color: #3e3e3e;
+     line-height: 50px;
+     font-weight: bold;
+     padding: 0;
+     text-transform: uppercase;
+}
+
+.d_flex {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+
+/** banner section **/
+
+
+
+body {
+     padding: 50px;
+     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+     
+   }
+   
+   a {
+     color: #00B7FF;
+     
+   }
+   
+   
+   
+   .footer-basic {
+     padding:40px 0;
+     background-color:#ffffff;
+     color:#4b4c4d;
+   }
+   
+   .footer-basic ul {
+     padding:0;
+     list-style:none;
+     text-align:center;
+     font-size:18px;
+     line-height:1.6;
+     margin-bottom:0;
+   }
+   
+   .footer-basic li {
+     padding:0 10px;
+   }
+   
+   .footer-basic ul a {
+     color:inherit;
+     text-decoration:none;
+     opacity:0.8;
+   }
+   
+   .footer-basic ul a:hover {
+     opacity:1;
+   }
+   
+   .footer-basic .social {
+     text-align:center;
+     padding-bottom:25px;
+   }
+   
+   .footer-basic .social > a {
+     font-size:24px;
+     width:40px;
+     height:40px;
+     line-height:40px;
+     display:inline-block;
+     text-align:center;
+     border-radius:50%;
+     border:1px solid #ccc;
+     margin:0 8px;
+     color:inherit;
+     opacity:0.75;
+   }
+   
+   .footer-basic .social > a:hover {
+     opacity:0.9;
+   }
+   
+   .footer-basic .copyright {
+     margin-top:15px;
+     text-align:center;
+     font-size:13px;
+     color:#aaa;
+     margin-bottom:0;
+   }

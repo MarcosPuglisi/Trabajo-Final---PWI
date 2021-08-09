@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{title}}</title>
+    <title>M Trekking</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
        <script src="https://kit.fontawesome.com/8e65694e5c.js" crossorigin="anonymous"></script>
 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+
+<!-- LINKS DE TEMPLATES -->
+<!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+ <!-- LINKS DE TEMPLATES -->
+
+
   </head>
-  <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <body class="bg-ligth">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">M trekking</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,19 +41,34 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="./">Home</a>
+                  <a class="nav-link active" aria-current="page" href="http://localhost:3000/">Home</a>
                   <a class="nav-link" href="#">Calendario Anual</a>
                   <a class="nav-link" href="#">Viajes</a>
                   <a class="nav-link" href="#">Blog</a>
-                  <a class="nav-link" href="./productos">Tienda</a>
+                  <a class="nav-link" href="http://localhost:3000/productos">Tienda</a>
                 </div>
               </div>
             </div>
-            <a href="./registro"><button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Registrarse</button></a>
-            <a href="./login"><button class="btn btn-outline-info my-2 my-sm-0" type="submit">Ingresar</button></a>
+            <a href="http://localhost:3000/registro"><button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Registrarse</button></a>
+            <a href="http://localhost:3000/login"><button class="btn btn-outline-info my-2 my-sm-0" type="submit">Ingresar</button></a>
           </nav>
 
     {{{body}}}
+
+      <div class="footer-basic mt-auto">
+              <footer class="footer-light bg-light mt-auto">
+                  <div class="social"><a href="https://www.instagram.com/anguilapuglisi/?hl=es"><i class="icon ion-social-instagram"></i></a><a href="https://www.linkedin.com/in/marcos-puglisi-7b07bb194/"><i class="icon ion-social-linkedin"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/marcos.puglisi/"><i class="icon ion-social-facebook"></i></a></div>
+                  <ul class="list-inline">
+                      <li class="list-inline-item"><a href="http://localhost:3000/">Home</a></li>
+                      <li class="list-inline-item"><a href="#">Calendario Anual</a></li>
+                      <li class="list-inline-item"><a href="#">Viajes</a></li>
+                      <li class="list-inline-item"><a href="#">Blog</a></li>
+                      <li class="list-inline-item"><a href="http://localhost:3000/productos">Tienda</a></li>
+                  </ul>
+                  <p class="copyright">Company M Trekking © 2021</p>
+              </footer>
+      </div>
+
 
   </body>
 </html>
