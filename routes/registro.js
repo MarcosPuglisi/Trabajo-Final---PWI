@@ -29,7 +29,7 @@
             mail : usuario.mail,
             cuerpo:
             `<h1> Bienvenido ${usuario.username}</h1>
-                <a href="http://${process.env.URL_SERVER}:${process.env.PORT}/registro/verify/${usuarioFinal.confirmacionCorreo}"> 📧 Link de confirmacion de correo  💌 </a>`,
+                <a href="http://localhost:3000/registro/verify/${usuarioFinal.confirmacionCorreo}"> 📧 Link de confirmacion de correo  💌 </a>`,
                 });
             res.redirect('/productos');
         }

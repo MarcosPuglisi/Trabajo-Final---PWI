@@ -185,5 +185,9 @@ body {
    }
 
    .bg-img1 {
-        background-color: #b0b0b1;
+        background-color: #ffffff;
+   }
+
+   .bg-user {
+          background-image: url(./../images/user.png);
    }
