@@ -45,7 +45,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/productos', productos);
 app.use('/registro', registro);
-app.use('./login', login);
+app.use('/login', login);
 
 app.use('/admin', adminIndex);
 app.use('/admin/productos',verifyAdmin, adminProductos);
