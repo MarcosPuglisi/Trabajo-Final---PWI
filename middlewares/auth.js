@@ -2,7 +2,7 @@ const verifyUser = (req, res, next) => {
     if(req.session.user){
         next();
     }else{
-        res.render('login', {message: 'necesitas loguearte para acceder'})
+        res.render('login', {message: 'necesitas ingresar tu cuenta para acceder'})
     }
 }
 const verifyAdmin = (req, res, next) => {

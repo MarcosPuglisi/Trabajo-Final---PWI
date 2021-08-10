@@ -182,6 +182,7 @@ body {
 
    .bg-imgL {
         background-image: url(./../imagesbg/lago.jpg);
+        opacity: 50%;
    }
 
    .bg-img1 {
@@ -191,3 +192,10 @@ body {
    .bg-user {
           background-image: url(./../images/user.png);
    }
+    
+   .bg-401 {
+        background-image: url(./../images401/401.png) ;
+        width:100%; height:80vh
+   }
+   
+   
